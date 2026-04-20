@@ -1,0 +1,36 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="GearRecApp.MainPage"
+             Title="Backpacking Gear Recommender">
+
+    <Grid RowDefinitions="Auto,*,Auto,Auto" Padding="20" RowSpacing="12">
+
+        <Label Grid.Row="0"
+               Text="Backpacking Gear Recommender"
+               FontSize="22"
+               FontAttributes="Bold"
+               HorizontalOptions="Center" />
+
+        <Editor Grid.Row="1"
+                x:Name="PromptEditor"
+                Placeholder="Describe what you need (e.g. lightweight sleeping bag for cold weather under $150)"
+                AutoSize="TextChanges"
+                MinimumHeightRequest="120"
+                VerticalOptions="Start" />
+
+        <Button Grid.Row="2"
+                x:Name="RecommendBtn"
+                Text="Get Recommendation"
+                Clicked="OnRecommendClicked"
+                HorizontalOptions="Fill" />
+
+        <ScrollView Grid.Row="3" MinimumHeightRequest="200">
+            <Label x:Name="ResponseLabel"
+                   Text="Your recommendation will appear here."
+                   LineBreakMode="WordWrap" />
+        </ScrollView>
+
+    </Grid>
+
+</ContentPage>
