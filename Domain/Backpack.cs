@@ -9,4 +9,10 @@ public class Backpack : Gear
     {
         Volume = volume;
     }
+    
+    public void DisplayInfo()
+    {
+        Console.WriteLine($"Backpack: {Name} | Price: {Price} | Weight: {Weight}kg | Size: {Size}L | Link: {Link}");
+    }
+    
 }
