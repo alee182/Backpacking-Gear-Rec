@@ -37,8 +37,23 @@ public class GearRepository
     
     public List<Gear> GetAllForType(string type)
     {
-        //Incomplete
-        throw new NotImplementedException();
+        if (type.toLower() == "backpack")
+        {
+            return _singletonGearList.Where(gear => gear.Type == TypeEnum.Backpack).ToList();
+        }
+
+        if (type.toLower() == "tent")
+        {
+            return  _singletonGearList.Where(gear => gear.Type == TypeEnum.Tent).ToList();
+        }
+
+        if (type.toLower() == "sleepingbag")
+        {
+            return  _singletonGearList.Where(gear => gear.Type == TypeEnum.SleepingBag).ToList();
+        }
+        
+        //Returns empty list
+        Return new List<Gear>;
     }
     
     public bool ClearRepository()
