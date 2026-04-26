@@ -2,35 +2,104 @@
 <ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
              x:Class="GearRecApp.MainPage"
-             Title="Backpacking Gear Recommender">
+             Title="GearRecBot">
 
-    <Grid RowDefinitions="Auto,*,Auto,Auto" Padding="20" RowSpacing="12">
+    <ScrollView>
+        <VerticalStackLayout Padding="24" Spacing="20">
 
-        <Label Grid.Row="0"
-               Text="Backpacking Gear Recommender"
-               FontSize="22"
-               FontAttributes="Bold"
-               HorizontalOptions="Center" />
+            <!-- Title -->
+            <Label Text="GearRecBot"
+                   FontSize="32"
+                   FontAttributes="Bold"
+                   HorizontalOptions="Center" />
 
-        <Editor Grid.Row="1"
-                x:Name="PromptEditor"
-                Placeholder="Describe what you need (e.g. lightweight sleeping bag for cold weather under $150)"
-                AutoSize="TextChanges"
-                MinimumHeightRequest="120"
-                VerticalOptions="Start" />
+            <!-- Gear Type Picker -->
+            <VerticalStackLayout Spacing="6">
+                <Label Text="What gear type are you looking for?"
+                       FontSize="15"
+                       FontAttributes="Bold" />
+                <Picker x:Name="GearTypePicker"
+                        Title="Select gear type">
+                    <Picker.Items>
+                        <x:String>Backpack</x:String>
+                        <x:String>Tent</x:String>
+                        <x:String>Sleeping Bag</x:String>
+                    </Picker.Items>
+                </Picker>
+            </VerticalStackLayout>
 
-        <Button Grid.Row="2"
-                x:Name="RecommendBtn"
-                Text="Get Recommendation"
-                Clicked="OnRecommendClicked"
-                HorizontalOptions="Fill" />
+            <!-- Priority Ranking -->
+            <VerticalStackLayout Spacing="6">
+                <Label Text="Priority ranking (drag or use arrows — top = highest priority)"
+                       FontSize="15"
+                       FontAttributes="Bold" />
 
-        <ScrollView Grid.Row="3" MinimumHeightRequest="200">
-            <Label x:Name="ResponseLabel"
-                   Text="Your recommendation will appear here."
-                   LineBreakMode="WordWrap" />
-        </ScrollView>
+                <!-- Row 1 -->
+                <Border Stroke="#CCCCCC" StrokeThickness="1" Padding="10,6">
+                    <Grid ColumnDefinitions="*,Auto,Auto">
+                        <Label x:Name="Priority1Label" Text="1. Rating" VerticalOptions="Center" />
+                        <Button Grid.Column="1" Text="▲" x:Name="Row1_Up"   Clicked="OnMoveUp"   WidthRequest="40" HeightRequest="36" Padding="0" />
+                        <Button Grid.Column="2" Text="▼" x:Name="Row1_Down" Clicked="OnMoveDown" WidthRequest="40" HeightRequest="36" Padding="0" />
+                    </Grid>
+                </Border>
 
-    </Grid>
+                <!-- Row 2 -->
+                <Border Stroke="#CCCCCC" StrokeThickness="1" Padding="10,6">
+                    <Grid ColumnDefinitions="*,Auto,Auto">
+                        <Label x:Name="Priority2Label" Text="2. Weight" VerticalOptions="Center" />
+                        <Button Grid.Column="1" Text="▲" x:Name="Row2_Up"   Clicked="OnMoveUp"   WidthRequest="40" HeightRequest="36" Padding="0" />
+                        <Button Grid.Column="2" Text="▼" x:Name="Row2_Down" Clicked="OnMoveDown" WidthRequest="40" HeightRequest="36" Padding="0" />
+                    </Grid>
+                </Border>
+
+                <!-- Row 3 -->
+                <Border Stroke="#CCCCCC" StrokeThickness="1" Padding="10,6">
+                    <Grid ColumnDefinitions="*,Auto,Auto">
+                        <Label x:Name="Priority3Label" Text="3. Price" VerticalOptions="Center" />
+                        <Button Grid.Column="1" Text="▲" x:Name="Row3_Up"   Clicked="OnMoveUp"   WidthRequest="40" HeightRequest="36" Padding="0" />
+                        <Button Grid.Column="2" Text="▼" x:Name="Row3_Down" Clicked="OnMoveDown" WidthRequest="40" HeightRequest="36" Padding="0" />
+                    </Grid>
+                </Border>
+            </VerticalStackLayout>
+
+            <!-- Additional Info -->
+            <VerticalStackLayout Spacing="6">
+                <Label Text="Any additional info for the bot?"
+                       FontSize="15"
+                       FontAttributes="Bold" />
+                <Editor x:Name="AdditionalInfoEditor"
+                        Placeholder="e.g. I need something under $200, prefer lightweight options..."
+                        AutoSize="TextChanges"
+                        MinimumHeightRequest="100" />
+            </VerticalStackLayout>
+
+            <!-- Submit Button -->
+            <Button x:Name="RecommendBtn"
+                    Text="Get Recommendation"
+                    Clicked="OnRecommendClicked"
+                    HorizontalOptions="Fill" />
+
+            <!-- TODO: REMOVE - token debug info (start) -->
+            <Label x:Name="TokenLabel"
+                   Text=""
+                   FontSize="11"
+                   TextColor="Gray"
+                   IsVisible="False" />
+            <!-- TODO: REMOVE - token debug info (end) -->
+
+            <!-- Status / error message -->
+            <Editor x:Name="StatusLabel"
+                    Text=""
+                    TextColor="Red"
+                    IsVisible="False"
+                    IsReadOnly="True"
+                    AutoSize="TextChanges"
+                    BackgroundColor="#FFF0F0" />
+
+            <!-- Gear recommendation cards -->
+            <VerticalStackLayout x:Name="CardsContainer" Spacing="16" />
+
+        </VerticalStackLayout>
+    </ScrollView>
 
 </ContentPage>

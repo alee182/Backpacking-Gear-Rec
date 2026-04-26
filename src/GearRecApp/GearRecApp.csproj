@@ -69,6 +69,13 @@
 	</ItemGroup>
 
 	<ItemGroup>
+		<None Include="..\..\Gear-Database\**" CopyToOutputDirectory="PreserveNewest">
+			<Link>Gear-Database\%(RecursiveDir)%(Filename)%(Extension)</Link>
+		</None>
+		<None Include="secrets.json" CopyToOutputDirectory="PreserveNewest" />
+	</ItemGroup>
+
+	<ItemGroup>
 	  <None Update="secrets.json">
 	    <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
 	  </None>

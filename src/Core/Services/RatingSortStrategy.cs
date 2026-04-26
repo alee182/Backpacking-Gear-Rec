@@ -1,11 +1,11 @@
 namespace DefaultNamespace;
 
-public class PriceSortStrategy : ISortStrategy
+public class RatingSortStrategy : ISortStrategy
 {
     public List<Gear> SortItems(List<Gear> gearList)
     {
         var top8 = gearList
-            .OrderBy(g => ParsePrice(g.Price))
+            .OrderByDescending(g => ParseRating(g.Rating))
             .Take(8)
             .ToList();
 
@@ -16,9 +16,8 @@ public class PriceSortStrategy : ISortStrategy
         return top8;
     }
 
-    private static decimal ParsePrice(string price)
+    private static int ParseRating(string rating)
     {
-        string cleaned = price.Replace("$", "").Replace(",", "").Trim();
-        return decimal.TryParse(cleaned, out var result) ? result : decimal.MaxValue;
+        return int.TryParse(rating.Trim(), out var result) ? result : 0;
     }
 }

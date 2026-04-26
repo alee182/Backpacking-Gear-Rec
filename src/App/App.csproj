@@ -5,9 +5,14 @@
   </ItemGroup>
 
   <ItemGroup>
+    <PackageReference Include="Google.GenAI" Version="1.6.1" />
+  </ItemGroup>
+
+  <ItemGroup>
     <None Include="..\..\Gear-Database\**" CopyToOutputDirectory="PreserveNewest">
       <Link>Gear-Database\%(RecursiveDir)%(Filename)%(Extension)</Link>
     </None>
+    <None Include="secrets.json" CopyToOutputDirectory="PreserveNewest" />
   </ItemGroup>
 
   <PropertyGroup>
