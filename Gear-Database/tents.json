@@ -4,7 +4,7 @@
     "products": {
       "Big Agnes Copper Spur UL2": {
         "Awards": "Best Overall",
-        "Price": "$600 List Check Price at REI",
+        "Price": "$600",
         "Overall Score": "80",
         "Bottom Line": "This lightweight tent outperforms its weight across several metrics, making for an incredibly well made option if its in your budget",
         "Pros": "Top-scoring space to weight ratio, easy to pack, fairly large pockets, includes two vestibules and doors",
@@ -20,7 +20,7 @@
       },
       "SlingFin Portal 2": {
         "Awards": "Best For Bad Weather",
-        "Price": "$560 List",
+        "Price": "$560",
         "Overall Score": "79",
         "Bottom Line": "With two large side doors and plenty of headroom, this lightweight tent is a great balance between comfort and weight",
         "Pros": "Lightweight, high peak height, excellent storage pockets, detachable kickstand vents",
@@ -36,7 +36,7 @@
       },
       "Big Agnes Copper Spur UL3": {
         "Awards": "Great 3-Person Ultralight Model",
-        "Price": "$650 List Check Price at Backcountry",
+        "Price": "$650",
         "Overall Score": "76",
         "Bottom Line": "If you need an ultralight tent that can handle a group of three, this model offers low weight and high performance",
         "Pros": "Great weight for a 3-person design, a favorite for ventilation, great weather resistance for its weight",
@@ -52,7 +52,7 @@
       },
       "REI Co-op Half Dome 3": {
         "Awards": "Best 3-Person Tent",
-        "Price": "$399 List Check Price at REI",
+        "Price": "$399",
         "Overall Score": "75",
         "Bottom Line": "If you need a tent that can comfortably fit three people, this durable option is a top recommendation",
         "Pros": "Fits three campers well, includes tent footprint, storage sack easy to use, decent abrasion resistance",
@@ -68,7 +68,7 @@
       },
       "The North Face Stormbreak 2": {
         "Awards": "Overall Best Buy",
-        "Price": "$220 List Check Price at REI",
+        "Price": "$220",
         "Overall Score": "73",
         "Bottom Line": "A great tent for campers and backpackers shopping on a budget who don’t mind some extra weight",
         "Pros": "Incredible value, impressive amount of interior space, fairly durable, easy and quick setup",
@@ -84,7 +84,7 @@
       },
       "Sea to Summit Telos TR2": {
         "Awards": "Most Versatile",
-        "Price": "$449 List Check Price at REI",
+        "Price": "$449",
         "Overall Score": "73",
         "Bottom Line": "A tent with a ton of flexibility for hikers who want one shelter to do it all",
         "Pros": "Highly adaptable, double doors, unique features",
@@ -100,7 +100,7 @@
       },
       "The North Face Stormbreak 3": {
         "Awards": "Best Buy for a 3-Person Tent",
-        "Price": "$260 List Check Price at Backcountry",
+        "Price": "$260",
         "Overall Score": "72",
         "Bottom Line": "If you’re needing a tent that’s spacious for two or can squeeze three people inside, this is a great budget shelter",
         "Pros": "Great budget model for 3 people, no frills design, tougher construction than some",
@@ -116,7 +116,7 @@
       },
       "NEMO Dragonfly Osmo 2": {
         "Awards": "",
-        "Price": "$550 List Check Amazon (on sale!)",
+        "Price": "$550",
         "Overall Score": "70",
         "Bottom Line": "This tent is an exceptional balance between weight and comfort features with one of the best shapes around",
         "Pros": "Massive storage pockets, sturdy vestibule shape, dual-tone privacy mesh",
@@ -131,7 +131,7 @@
       },
       "#9 Compare: NEMO Dagger Osmo": {
         "Awards": "",
-        "Price": "$600 List Check Price at Backcountry",
+        "Price": "$600",
         "Overall Score": "69",
         "Bottom Line": "A reliable backpacking tent with a solid balance between interior space and weight",
         "Pros": "Large vestibules, good headroom, good balance between weight and durability",
@@ -146,7 +146,7 @@
       },
       "NEMO Aurora 2": {
         "Awards": "Floor Space on a Budget",
-        "Price": "$300 List Check Price at Backcountry",
+        "Price": "$300",
         "Overall Score": "67",
         "Bottom Line": "This spacious, durable, and sturdy tent is like a budget basecamp for those who need extra space",
         "Pros": "Spacious, large pockets, seems built to last",
@@ -162,7 +162,7 @@
       },
       "Hilleberg Anjan 2 GT": {
         "Awards": "Best for Extreme Weather",
-        "Price": "$1,075 List Check Price at Feathered Friends",
+        "Price": "$1",
         "Overall Score": "66",
         "Bottom Line": "A great backpacking tent with a large vestibule that withstands extreme weather conditions",
         "Pros": "Extended vestibule, highly weather resistant",
@@ -178,7 +178,7 @@
       },
       "#12 Compare: REI Co-op Half Dome 2": {
         "Awards": "",
-        "Price": "$329 List Check Price at REI",
+        "Price": "$329",
         "Overall Score": "64",
         "Bottom Line": "The latest update of a classic tent from REI that furthers its reputation as a very comfortable shelter",
         "Pros": "Very comfortable to camp with, single pole design, includes great footprint",
@@ -193,7 +193,7 @@
       },
       "Big Agnes Tiger Wall UL2": {
         "Awards": "",
-        "Price": "$500 List Check Amazon (on sale!)",
+        "Price": "$500",
         "Overall Score": "62",
         "Bottom Line": "This is a lightweight tent for a long-distance backpacking duo that still wants the comfort of a double-wall shelter",
         "Pros": "Lightweight, good headroom for its size, double side doors, massive storage pocket",
@@ -208,7 +208,7 @@
       },
       "#14 Compare: MSR Hubba Hubba LT": {
         "Awards": "",
-        "Price": "$550 List Check Price at REI",
+        "Price": "$550",
         "Overall Score": "61",
         "Bottom Line": "A comfortable tent for when you need a combination of light weight and weather resistance, with a few design challenges",
         "Pros": "Lots of space at peak height, versatile fly configuration, two doors",
@@ -223,7 +223,7 @@
       },
       "#15 Compare: MSR Freelite 2": {
         "Awards": "",
-        "Price": "$465 List Check Price at Amazon",
+        "Price": "$465",
         "Overall Score": "60",
         "Bottom Line": "This lightweight but well-built tent gives you a lot of floor space but less headroom and organizational options",
         "Pros": "Lightweight and great space to weight ratio, sturdy build",
@@ -238,7 +238,7 @@
       },
       "#16 Compare: Mountain Hardwear Nimbus UL 2": {
         "Awards": "",
-        "Price": "$460 List Check Price at Backcountry",
+        "Price": "$460",
         "Overall Score": "57",
         "Bottom Line": "A backpacking tent large enough for two people to snuggle in and light enough for one person to carry on their own",
         "Pros": "Lightweight, packable, overhead pocket",
@@ -253,7 +253,7 @@
       },
       "#17 Compare: NEMO Hornet Elite Osmo": {
         "Awards": "",
-        "Price": "$660 List Check Price at REI",
+        "Price": "$660",
         "Overall Score": "57",
         "Bottom Line": "An ultralight tent with two side doors that's great for covering long distances",
         "Pros": "Super lightweight, easy to pitch, packs down very small",
@@ -268,7 +268,7 @@
       },
       "REI Co-op Trailmade 2": {
         "Awards": "",
-        "Price": "$199 List Check Price at REI",
+        "Price": "$199",
         "Overall Score": "53",
         "Bottom Line": "A simple, nicely made, and spacious tent for beginners and short backpacking trips",
         "Pros": "Inexpensive, spacious, well-made",
@@ -283,7 +283,7 @@
       },
       "#19 Compare: Tarptent Double Rainbow DW": {
         "Awards": "",
-        "Price": "$439 List",
+        "Price": "$439",
         "Overall Score": "53",
         "Bottom Line": "A unique, lightweight, and fairly roomy option that requires you to stake out all four corners",
         "Pros": "Solid floor space and headroom for weight, innovative vestibule and venting",
@@ -298,7 +298,7 @@
       },
       "#20 Compare: Kelty Late Start 2": {
         "Awards": "",
-        "Price": "$160 List",
+        "Price": "$160",
         "Overall Score": "44",
         "Bottom Line": "A decently lightweight tent with some innovative features that is easy to set up",
         "Pros": "Easy to set up, lots of mesh for stargazing",
@@ -318,7 +318,7 @@
     "products": {
       "Durston X-Mid 1P": {
         "Awards": "Best 1-Person Ultralight Tent",
-        "Price": "$269 List",
+        "Price": "$269",
         "Overall Score": "82",
         "Bottom Line": "A fanatically well-designed tent by and for ultralight backpackers that's also reasonably priced, offering both top-tier weather protection coupled with creature comforts",
         "Pros": "Stormworthy,competitively priced, no-stretch fly, generous living and vestibule space, excellent ventilation system",
@@ -334,7 +334,7 @@
       },
       "ZPacks Duplex Classic": {
         "Awards": "Best 2-Person Ultralight Tent",
-        "Price": "$699 List",
+        "Price": "$699",
         "Overall Score": "80",
         "Bottom Line": "Ample space and exceptional performance in all metrics make this our favorite ultralight shelter",
         "Pros": "Amazingly light, four-sided weather protection, ample space for two, double doors",
@@ -350,7 +350,7 @@
       },
       "Tarptent StratoSpire Ultra": {
         "Awards": "",
-        "Price": "$519 List",
+        "Price": "$519",
         "Overall Score": "79",
         "Bottom Line": "Tons of interior and vestibule space along with amazing storm-worthiness and a light enough carry for two people",
         "Pros": "Completely bombproof, easy to set up, built in tall people in mind",
@@ -365,7 +365,7 @@
       },
       "#4 Compare: Six Moon Designs Lunar Solo": {
         "Awards": "",
-        "Price": "$260 List",
+        "Price": "$260",
         "Overall Score": "78",
         "Bottom Line": "A great stormworthy tent with tons of livable space, but you'll need to invest some time in learning how to properly pitch it",
         "Pros": "Waterproof and no-stretch sil/poly rain fly, spacious living interior, deep bathtub bottom",
@@ -380,7 +380,7 @@
       },
       "Hyperlite Mountain Gear UltaMid 2": {
         "Awards": "Most Spacious Ultralight Tent",
-        "Price": "$730 List Check Price at Hyperlite Mountain Gear",
+        "Price": "$730",
         "Overall Score": "76",
         "Bottom Line": "A super high-quality and spacious single wall pyramid with a high price tag to match its quality",
         "Pros": "DCF construction is lightweight and waterproof, super spacious, four season use",
@@ -396,7 +396,7 @@
       },
       "#6 Compare: Zpacks Hexamid": {
         "Awards": "",
-        "Price": "$499 List",
+        "Price": "$499",
         "Overall Score": "76",
         "Bottom Line": "A hardcore ultralight single trekking pole tent with optional bathtub floor designed specifically for experienced backpackers",
         "Pros": "Truly ultralight, built-in mesh doors, keep it simple design",
@@ -411,7 +411,7 @@
       },
       "Hyperlite Mountain Gear Flat Tarp": {
         "Awards": "Best Ultralight Tarp",
-        "Price": "$390 List Check Price at REI",
+        "Price": "$390",
         "Overall Score": "72",
         "Bottom Line": "This is THE go-to solution when tents are too heavy and you desire maximum versatility",
         "Pros": "Ultimate flexibility in pitching, extremely simple and lightweight, tons of attachment points",
@@ -427,7 +427,7 @@
       },
       "Gossamer Gear The Two": {
         "Awards": "",
-        "Price": "$320 List",
+        "Price": "$320",
         "Overall Score": "72",
         "Bottom Line": "This tent provides a ton of storage, luxury, and living space at a truly great price",
         "Pros": "Huge storage and living space, good weather protection, easy set-up, durable, good price",
@@ -442,7 +442,7 @@
       },
       "3F UL Gear Lanshan 2 Pro": {
         "Awards": "Best Value for a 2-Person Ultralight Tent",
-        "Price": "$197 List Check Amazon (on sale!)",
+        "Price": "$197",
         "Overall Score": "71",
         "Bottom Line": "An excellent budget buy for those looking to dip their toes into ultralight backpacking",
         "Pros": "Amazing value, great interior space and headroom, impressive protection from the weather",
@@ -458,7 +458,7 @@
       },
       "Nemo Hornet Osmo 2P": {
         "Awards": "Your First Ultralight Tent",
-        "Price": "$480 List Check Price at REI",
+        "Price": "$480",
         "Overall Score": "71",
         "Bottom Line": "This is the ideal dome-style tent to offer folks a gentle, yet high-performance introduction into the world of ultralight backpacking",
         "Pros": "Straightforward setup, semi-freestanding for easy placement, easy to divide up to split the load",
@@ -474,7 +474,7 @@
       },
       "#11 Compare: Tarptent Aeon Li": {
         "Awards": "",
-        "Price": "$599 List",
+        "Price": "$599",
         "Overall Score": "71",
         "Bottom Line": "If you like to move fast on solo adventures, this ultralight shelter is a great choice",
         "Pros": "Under a pound, durable Dyneema construction, ultralight stakes included",
@@ -489,7 +489,7 @@
       },
       "SlingFin SplitWing UL Tarp": {
         "Awards": "Great Value for a Specialty Tarp",
-        "Price": "$200 List",
+        "Price": "$200",
         "Overall Score": "70",
         "Bottom Line": "An ultra-minimalist shaped tarp perfect for extreme fast-and-light missions or just-in-case scenarios",
         "Pros": "Incredible weight specs, superbly packability, just-enough weather protection, straightfoward setup, Modular after-market options extend usability",
@@ -505,7 +505,7 @@
       },
       "#13 Compare: Big Agnes Fly Creek UL1": {
         "Awards": "",
-        "Price": "$420 List Check Price at REI",
+        "Price": "$420",
         "Overall Score": "69",
         "Bottom Line": "One of the best front-entry semi-freestanding tents with great weather protection, although the fundamental design may not be attractive to some",
         "Pros": "Excellent rain and wind protection in a storm, simple and familiar setup, inner-only setup possible for stargazing",

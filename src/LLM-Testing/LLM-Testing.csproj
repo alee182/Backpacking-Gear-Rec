@@ -8,6 +8,12 @@
   </PropertyGroup>
 
   <ItemGroup>
+    <Compile Remove="src\**" />
+    <EmbeddedResource Remove="src\**" />
+    <None Remove="src\**" />
+  </ItemGroup>
+
+  <ItemGroup>
     <PackageReference Include="Google.GenAI" Version="1.*" />
   </ItemGroup>
 
