@@ -2,3 +2,6 @@ all domain object attributes will be strings for simplicity when converting from
 get rid of link attribute for domain objects
 modify all domain objects all different now
 UniqueSortStrategy now Rating SortStrategy
+
+
+add IGearManage

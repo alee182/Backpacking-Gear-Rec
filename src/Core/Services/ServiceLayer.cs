@@ -30,4 +30,13 @@ public class ServiceLayer
         var allGear = repo.GetAllForType(UserGearChoice);
         return SortStrategy!.SortItems(allGear);
     }
+
+    public void ResetToDefault()
+    {
+        UserStrategyChoice = string.Empty;
+        UserGearChoice = string.Empty;
+        UserExtraInfo = string.Empty;
+        SortStrategy = null;
+        GearRepository.GetInstance().ClearRepository();
+    }
 }

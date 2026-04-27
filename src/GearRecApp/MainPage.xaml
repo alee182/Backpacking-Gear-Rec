@@ -30,7 +30,7 @@
 
             <!-- Priority Ranking -->
             <VerticalStackLayout Spacing="6">
-                <Label Text="Priority ranking (drag or use arrows — top = highest priority)"
+                <Label Text="Priority Ranking: (Top = highest priority.)"
                        FontSize="15"
                        FontAttributes="Bold" />
 
@@ -64,11 +64,11 @@
 
             <!-- Additional Info -->
             <VerticalStackLayout Spacing="6">
-                <Label Text="Any additional info for the bot?"
+                <Label Text="Additional Information:"
                        FontSize="15"
                        FontAttributes="Bold" />
                 <Editor x:Name="AdditionalInfoEditor"
-                        Placeholder="e.g. I need something under $200, prefer lightweight options..."
+                        Placeholder="e.g. I camp in 3-season conditions, want something under 3 lbs, budget is $300..."
                         AutoSize="TextChanges"
                         MinimumHeightRequest="100" />
             </VerticalStackLayout>
@@ -98,6 +98,16 @@
 
             <!-- Gear recommendation cards -->
             <VerticalStackLayout x:Name="CardsContainer" Spacing="16" />
+
+            <!-- Start Over Button -->
+            <Button x:Name="ResetBtn"
+                    Text="Start Over"
+                    Clicked="OnResetClicked"
+                    HorizontalOptions="Start"
+                    WidthRequest="130"
+                    BackgroundColor="#B71C1C"
+                    TextColor="White"
+                    IsVisible="False" />
 
         </VerticalStackLayout>
     </ScrollView>

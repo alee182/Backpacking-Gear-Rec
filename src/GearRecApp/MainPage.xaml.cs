@@ -6,6 +6,7 @@ namespace GearRecApp;
 public partial class MainPage : ContentPage
 {
     private readonly List<string> _priorities = new() { "Rating", "Weight", "Price" };
+    private ServiceLayer? _service;
 
     public MainPage()
     {
@@ -71,8 +72,8 @@ public partial class MainPage : ContentPage
 
         try
         {
-            var service = new ServiceLayer(gearKey, additionalInfo, priority);
-            List<Gear> filtered = service.GetFilteredGear();
+            _service = new ServiceLayer(gearKey, additionalInfo, priority);
+            List<Gear> filtered = _service.GetFilteredGear();
 
             var llm = new LLMService();
             // TODO: REMOVE - token debug (start)
@@ -119,7 +120,33 @@ public partial class MainPage : ContentPage
         {
             RecommendBtn.IsEnabled = true;
             RecommendBtn.Text = "Get Recommendation";
+            ResetBtn.IsVisible = CardsContainer.Children.Count > 0;
         }
+    }
+
+    private void OnResetClicked(object sender, EventArgs e)
+    {
+        _service?.ResetToDefault();
+        _service = null;
+
+        // Reset priorities to default order
+        _priorities.Clear();
+        _priorities.AddRange(new[] { "Rating", "Weight", "Price" });
+        RefreshPriorityLabels();
+
+        // Clear inputs
+        GearTypePicker.SelectedItem = null;
+        AdditionalInfoEditor.Text = string.Empty;
+
+        // Clear results
+        CardsContainer.Children.Clear();
+        StatusLabel.Text = string.Empty;
+        StatusLabel.IsVisible = false;
+        TokenLabel.Text = string.Empty;
+        TokenLabel.IsVisible = false;
+
+        // Hide reset button
+        ResetBtn.IsVisible = false;
     }
 
     private static View BuildCard(Gear gear, string llmSentence)
