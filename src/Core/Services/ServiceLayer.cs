@@ -1,6 +1,6 @@
 namespace DefaultNamespace;
 
-public class ServiceLayer
+public class ServiceLayer : IServiceLayer
 {
     public string UserStrategyChoice;
     public string UserGearChoice;

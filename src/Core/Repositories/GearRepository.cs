@@ -1,6 +1,6 @@
 ﻿namespace DefaultNamespace;
 
-public class GearRepository
+public class GearRepository : IGearRepository
 {
     private static List<Gear> _singletonGearList = new List<Gear>();
     private static GearRepository? _instance = null;
