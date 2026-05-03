@@ -2,7 +2,7 @@ using System.Text.Json;
 
 namespace DefaultNamespace;
 
-public class GearManager
+public class GearManager : IGearManager
 {
     private static string DbPath(string file) =>
         Path.Combine(AppContext.BaseDirectory, "Gear-Database", file);
