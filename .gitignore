@@ -1,6 +1,7 @@
 # Build outputs
 bin/
 obj/
+outpublish/
 
 # VS / Rider IDE files
 .vs/

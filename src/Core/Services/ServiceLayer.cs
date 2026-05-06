@@ -6,7 +6,7 @@ public class ServiceLayer : IServiceLayer
     public string UserGearChoice;
     public string UserExtraInfo;
     public ISortStrategy? SortStrategy;
-    public GearManager GearManager;
+    public IGearManager GearManager;
 
     public ServiceLayer(string userGearChoice, string userExtraInfo, string userStrategyChoice)
     {

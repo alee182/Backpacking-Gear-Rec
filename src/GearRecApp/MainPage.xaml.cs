@@ -6,7 +6,7 @@ namespace GearRecApp;
 public partial class MainPage : ContentPage
 {
     private readonly List<string> _priorities = new() { "Rating", "Weight", "Price" };
-    private ServiceLayer? _service;
+    private IServiceLayer? _service;
 
     public MainPage()
     {
