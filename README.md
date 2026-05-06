@@ -4,6 +4,13 @@
 
 Backpacking Gear Recommender is a .NET application that helps users discover and compare backpacking gear — backpacks, tents, and sleeping bags — sourced from a  JSON database. Users can filter gear by type, sort results by price, weight, or rating, and get personalized recommendations powered by an LLM. The project is structured around core OOP principles (inheritance, interfaces, polymorphism) and implements Singleton, Factory Method, and Strategy design patterns.
 
+Important Constraints: 
+
+
+The `src` folder is divided into two subdirectories: **Core** and **GearRecApp**. Core contains all backend business logic and corresponds to the UML diagram, with the exception of `LLMService` and `MainPage`, which live in GearRecApp due to their direct ties to the UI. GearRecApp holds all frontend files and dependencies. Because of MAUI's required project conventions, the folder structure inside GearRecApp cannot be reorganized.the only files relevant to the rubric from the GearRecApp folder are `MainPage.xaml.cs` and `LLMService.cs`. Additionally, only the backend-related methods of `MainPage.xaml.cs` are reflected in the UML diagram.
+
+A Gemini API Key and some dependencies are required to run this project. It can take up to 30 minutes to obtain a Gemini API key as well as install all dependencies. I talked to Professor thayer about these concerns and said proof of compilation can be demonstrated at showcase.
+
 
 ---
 
@@ -83,20 +90,21 @@ dotnet run -f net8.0-windows10.0.19041.0 --no-launch-profile
 
 ## OOP Feature Requirements
 
+
 | Feature | File | Line(s) | Rationale |
 |---|---|---|---|
-| **Inheritance (1)** | `filename.cs` | L00–L00 | <!-- Why a base class was used here --> |
-| **Inheritance (2)** | `filename.cs` | L00–L00 | <!-- Why a derived class was used here --> |
-| **Interface (1)** | `filename.cs` | L00–L00 | <!-- Rationale --> |
-| **Interface (2)** | `filename.cs` | L00–L00 | <!-- Rationale --> |
-| **Interface (3)** | `filename.cs` | L00–L00 | <!-- Rationale --> |
-| **Polymorphism (1)** | `filename.cs` | L00–L00 | <!-- e.g., method override / dynamic dispatch --> |
-| **Polymorphism (2)** | `filename.cs` | L00–L00 | <!-- e.g., method override / dynamic dispatch --> |
-| **Access Modifiers** | `filename.cs` | L00–L00 | <!-- Reasoning for chosen visibility (public/private/protected/internal) --> |
-| **Struct** | `filename.cs` | L00–L00 | <!-- Why a struct was appropriate here --> |
-| **Enum** | `filename.cs` | L00–L00 | <!-- Why an enum was appropriate here --> |
-| **Data Structure** | `filename.cs` | L00–L00 | <!-- Which data structure (List, Dictionary, etc.) and why --> |
-| **I/O** | `filename.cs` | L00–L00 | <!-- How input/output is demonstrated using language I/O libraries --> |
+| **Inheritance (1)** | `Gear.cs` | All | `Gear` abstract holds attributes shared by `Tent`, `Backpack`, and `SleepingBag` objects. |
+| **Inheritance (2)** | `GearFactory.cs` | All | `GearFactory` defines shared functionality of the three `Gear` object factories. |
+| **Interface (1)** | `IGearManager.cs` | All | `IGearManager` is used to connect GearManager methods with `ServiceLayer`.|
+| **Interface (2)** | `IGearRepository.cs` | All | `IGearRepository` is used to connect GearRepository methods with `ServiceLayer`. |
+| **Interface (3)** | `IServiceLayer.cs` | All | `IServiceLayer.` is used to connect ServiceLayer methods to the `program`. |
+| **Polymorphism (1)** | `ISortStrategy.cs` | All | `SortItems()` method is defined differently in derived classes of `ISortStrategy`. |
+| **Polymorphism (2)** | `GearFactory.cs` | L14–L15 | `CreateGear()` method is overridden in each descending factory. |
+| **Access Modifiers** | `GearRepository.cs` `LLMService.cs` | L05–L06, L11-L12 | A singleton private list is used to store `Gear` items, in order to keep all objects stored in one list throughout the program. `LLMService.cs` uses private attributes for the LLM APIKey and model, with public methods. |
+| **Struct** | `Gear.cs` | All | `Gear` is a struct used to format the creation of `Gear` objects. |
+| **Enum** | `TypeEnum.cs` | All | `TypeEnum.cs` is used to identify what type of `Gear` is being made. |
+| **Data Structure** | `GearRepository.cs` | L5 | `List<Gear>` is a list of `Gears` used in making the singleton. |
+| **I/O** | `MainPage.xaml.cs` | L54–L68 | User input is accepted, including what users define as their priorities for the gear they want and additional info that is fed to the LLM to refine their gear recommendations. |
 
 ---
 
