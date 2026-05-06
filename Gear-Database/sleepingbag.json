@@ -17,7 +17,7 @@
         "recommended_temp_limit": "No information",
         "image_path": "images\\best-sleeping-bag-cold-weather_compare\\editors-choice_47x107.png"
       },
-      "#2 Compare: Feathered Friends Snowbunting": {
+      "Feathered Friends Snowbunting": {
         "Awards": "",
         "Price": "$829",
         "Overall Score": "79",
@@ -46,7 +46,7 @@
         "recommended_temp_limit": "-20 F",
         "image_path": "images\\best-sleeping-bag-cold-weather_compare\\439732_30853_L2.webp"
       },
-      "#4 Compare: Marmot Lithium": {
+      "Marmot Lithium": {
         "Awards": "",
         "Price": "$649",
         "Overall Score": "59",
@@ -60,7 +60,7 @@
         "Weight": "2.9 lbs",
         "recommended_temp_limit": "-41 F"
       },
-      "#5 Compare: Mountain Hardwear Phantom 0": {
+      "Mountain Hardwear Phantom 0": {
         "Awards": "",
         "Price": "$780",
         "Overall Score": "56",
@@ -74,7 +74,7 @@
         "Weight": "3.0 lbs (long)",
         "recommended_temp_limit": "-36 F"
       },
-      "#6 Compare: Mountain Hardwear Lamina 0": {
+      "Mountain Hardwear Lamina 0": {
         "Awards": "",
         "Price": "$280",
         "Overall Score": "54",
@@ -177,7 +177,7 @@
         "Shell Material": "Shell: Pertex Endurance UL 10D water-resistant; Liner: Flite 15D ripstop nylon",
         "image_path": "images\\best-ultralight-sleeping-bag\\top-pick_47x107.png"
       },
-      "#6 Compare: Katabatic Gear Flex 22 Quilt": {
+      "Katabatic Gear Flex 22 Quilt": {
         "Awards": "",
         "Price": "$399",
         "Overall Score": "72",
@@ -193,7 +193,7 @@
         "Weight": "23.9 oz",
         "Shell Material": "Shell: Pertex Quantum Eco ripstop (0.85 oz/yd); Liner: Pertex Quantum ripstop (1.0 oz/yd)"
       },
-      "#7 Compare: Big Agnes Fly Creek UL 25": {
+      "Big Agnes Fly Creek UL 25": {
         "Awards": "",
         "Price": "$500",
         "Overall Score": "71",
@@ -209,7 +209,7 @@
         "Weight": "26.0 oz",
         "Shell Material": "Recycled NetPlus 10D nylon ripstop with PFAS-free DWR"
       },
-      "#8 Compare: Western Mountaineering AstraLite": {
+      "Western Mountaineering AstraLite": {
         "Awards": "",
         "Price": "$535",
         "Overall Score": "70",
@@ -242,7 +242,7 @@
         "Shell Material": "Shell: Pertex Endurance UL; Liner: Flite 15D ripstop nylon",
         "image_path": "images\\best-ultralight-sleeping-bag\\top-pick_47x107.png"
       },
-      "#10 Compare: Western Mountaineering SummerLite": {
+      "Western Mountaineering SummerLite": {
         "Awards": "",
         "Price": "$540",
         "Overall Score": "68",
@@ -258,7 +258,7 @@
         "Weight": "19.0 oz",
         "Shell Material": "12D ripstop nylon"
       },
-      "#11 Compare: Feathered Friends Hummingbird 30 UL": {
+      "Feathered Friends Hummingbird 30 UL": {
         "Awards": "",
         "Price": "$549",
         "Overall Score": "67",
@@ -291,7 +291,7 @@
         "Shell Material": "10D nylon with DWR finish (PFAS/PFCS-free, shell and liner)",
         "image_path": "images\\best-ultralight-sleeping-bag\\440311_15085_L2.webp"
       },
-      "#13 Compare: Katabatic Gear Palisade 30": {
+      "Katabatic Gear Palisade 30": {
         "Awards": "",
         "Price": "$379",
         "Overall Score": "61",
@@ -363,7 +363,7 @@
         "Shell Material": "12D Extremelite 12D nylon",
         "image_path": "images\\best-backpacking-sleeping-bag\\top-pick_47x107.png"
       },
-      "#4 Compare: Feathered Friends Swallow 20 YF": {
+      "Feathered Friends Swallow 20 YF": {
         "Awards": "",
         "Price": "$589",
         "Overall Score": "77",
@@ -413,7 +413,7 @@
         "Shell Material": "20D ripstop nylon with DWR finish",
         "image_path": "images\\best-backpacking-sleeping-bag\\best-buy_47x107.png"
       },
-      "#7 Compare: REI Co-op Magma 15": {
+      "REI Co-op Magma 15": {
         "Awards": "",
         "Price": "$399",
         "Overall Score": "72",
@@ -429,7 +429,7 @@
         "Weight": "2.3 lbs",
         "Shell Material": "Recycled nylon"
       },
-      "#8 Compare: Rab Neutrino 400": {
+      "Rab Neutrino 400": {
         "Awards": "",
         "Price": "$435",
         "Overall Score": "70",
@@ -445,7 +445,7 @@
         "Weight": "1.8 lbs",
         "Shell Material": "20D recycled Pertex quantum nylon ripstop with non-PRC DWR"
       },
-      "#9 Compare: NEMO Disco Endless Promise 15": {
+      "NEMO Disco Endless Promise 15": {
         "Awards": "",
         "Price": "$300",
         "Overall Score": "68",
@@ -461,7 +461,7 @@
         "Weight": "2.8 lbs",
         "Shell Material": "Recycled polyester ripstop with non-PFC DWR finish"
       },
-      "#10 Compare: Mountain Hardwear Phantom 30": {
+      "Mountain Hardwear Phantom 30": {
         "Awards": "",
         "Price": "$580",
         "Overall Score": "68",
@@ -477,7 +477,7 @@
         "Weight": "1.4 lbs",
         "Shell Material": "10D ripstop nylon with DWR finish"
       },
-      "#11 Compare: Marmot Trestles Elite Eco 20": {
+      "Marmot Trestles Elite Eco 20": {
         "Awards": "",
         "Price": "$169",
         "Overall Score": "59",
@@ -510,7 +510,7 @@
         "Shell Material": "Recycled bluesign-approved polyester",
         "image_path": "images\\best-backpacking-sleeping-bag\\best-buy_47x107.png"
       },
-      "#13 Compare: NEMO Forte 20": {
+      "NEMO Forte 20": {
         "Awards": "",
         "Price": "$200",
         "Overall Score": "55",
@@ -526,7 +526,7 @@
         "Weight": "3.4 lbs",
         "Shell Material": "30D recycled polyester, bluesign-approved ripstop with non-PFC DWR finish"
       },
-      "#14 Compare: Kelty Cosmic 20": {
+      "Kelty Cosmic 20": {
         "Awards": "",
         "Price": "$190",
         "Overall Score": "54",
@@ -542,7 +542,7 @@
         "Weight": "2.4 lbs",
         "Shell Material": "Recycled 20D nylon taffeta with PFAS-free DWR finish"
       },
-      "#15 Compare: The North Face Cat's Meow 20 Eco": {
+      "The North Face Cat's Meow 20 Eco": {
         "Awards": "",
         "Price": "$190",
         "Overall Score": "52",
@@ -558,7 +558,7 @@
         "Weight": "2.7 lbs",
         "Shell Material": "20D recycled nylon with non-PFC DWR finish"
       },
-      "#16 Compare: TETON Sports Trailhead": {
+      "TETON Sports Trailhead": {
         "Awards": "",
         "Price": "$70",
         "Overall Score": "50",
@@ -574,7 +574,7 @@
         "Weight": "2.4 lbs",
         "Shell Material": "75D diamond ripstop polyester"
       },
-      "#17 Compare: Big Agnes Anthracite 20": {
+      "Big Agnes Anthracite 20": {
         "Awards": "",
         "Price": "$160",
         "Overall Score": "48",
