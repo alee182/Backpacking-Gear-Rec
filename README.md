@@ -79,12 +79,14 @@ dotnet run -f net8.0-windows10.0.19041.0 --no-launch-profile
 
 ## Troubleshooting
 
-| Error | Fix |
-|---|---|
-| `Class not registered (0x80040154)` | Install Windows App Runtime (step 4) |
-| `secrets.json not found` | Create `src/GearRecApp/secrets.json` as shown in step 2 |
-| `Google.GenAI quota limit: 0` | Enable the Generative Language API and check billing (see step 1 note) |
-| `The launch profile could not be applied` | Add `--no-launch-profile` to the run command |
+| Error                                           | Fix                                                                                                                                         |
+|-------------------------------------------------|---------------------------------------------------------------------------------------------------------------------------------------------|
+| `Class not registered (0x80040154)`             | Install Windows App Runtime (step 4)                                                                                                        |
+| `secrets.json not found`                        | Create `src/GearRecApp/secrets.json` as shown in step 2                                                                                     |
+| `Google.GenAI quota limit: 0`                   | Enable the Generative Language API and check billing (see step 1 note)                                                                      |
+| `The launch profile could not be applied`       | Add `--no-launch-profile` to the run command                                                                                                |
+| ![Alt text](Gear-Database/images/mauierror.png) | If you recieve this popup when running the program select `Yes`. Then download and install the Windows App SDK, then restart your computer. |
+
 
 ---
 
