@@ -1,5 +1,7 @@
 # Setup Guide — Backpacking Gear Recommender
 
+![Gear Guru Screenshot](Gear-Database/images/gear-guru-readme.png)
+
 ## Prerequisites
 
 - A Google account
